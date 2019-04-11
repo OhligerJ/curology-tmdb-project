@@ -66,3 +66,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Add dependencies
+
+`npm install --save typescript` 
+`npm install --save axios`
+`npm install --save popper.js`
+`npm install --save jquery`
+`npm install --save bootstrap`
+`npm install --save prop-types`
+
+### Compiling SCSS into CSS
+
+I chose to use VSCode's Live Sass Compiler extension to compile SCSS into CSS. You're options may vary depending on your code editor
