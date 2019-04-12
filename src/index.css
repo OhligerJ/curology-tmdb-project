@@ -1,9 +1,11 @@
 body {
-  margin: 0;
+  margin: -21px 0 0 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #666;
+  height: 100vh;
 }
 
 code {
@@ -11,11 +13,103 @@ code {
 }
 
 div#root {
-  max-width: 750px;
+  width: 95%;
+  max-width: 950px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div#root h1 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+div#root div.searchUrl {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+div#root form {
   margin: 0 auto;
 }
 
-div#root > div {
+div#root form label {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div#root form input {
+  display: block;
   margin: 0 auto;
+  height: 40px;
+  font-size: 22px;
+  padding: 10px 4px;
+  border: 1px solid #eee;
+  outline: 0;
+  text-align: center;
+}
+
+div#root form .loader {
+  text-align: center;
+  display: none;
+}
+
+div#root form ul {
+  padding: 0 20px;
+}
+
+div#root form > div {
+  display: block;
+}
+
+div#root form > div div.movie_result {
+  display: block;
+  margin-bottom: 50px;
+  height: auto;
+  min-height: 200px;
+  border-top: 1px dashed #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div#root form > div .image {
+  width: 15%;
+  float: left;
+  margin-right: 3%;
+}
+
+div#root form > div .image img {
+  width: 100%;
+}
+
+div#root form > div .info {
+  width: 75%;
+  float: right;
+}
+
+div#root form > div .info h2.title {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+div#root form > div .info h3.date_released {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+div#root form > div .info p {
+  font-size: 14px;
+}
+
+div#root form > div .info .average {
+  color: #a86c29;
+  font-weight: bold;
 }
 /*# sourceMappingURL=index.css.map */

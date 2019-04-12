@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Add dependencies
+### Setup: 
 
 `npm install --save typescript` 
 `npm install --save axios`
@@ -75,7 +75,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 `npm install --save jquery`
 `npm install --save bootstrap`
 `npm install --save prop-types`
+`npm install --save react-infinite-scroller`
+
+Then you can run `npm start` per the create-react-app bootstrapping instructions suggest
 
 ### Compiling SCSS into CSS
 
 I chose to use VSCode's Live Sass Compiler extension to compile SCSS into CSS. You're options may vary depending on your code editor
+
+### Challenges
+
+- Learning React. React is incredibly powerful, and does things differently than I have previously done them with jQuery or raw Javascript. It's power is undeniable, and I have been learning a lot about React while working on this project
+- Navigation. I was initially led astray by a convoluted pagination extension. Utilizing infinite scroll hasn't been easy, either, but I was eventually able to understand it
+- Some movies don't come with posters. I chose to use a dummy image if it did not
+
+### Design Decisions
+
+- I liked the simple layout in the example, so I mostly attempted to copy it. I tend to be a bit of a minimalist, so I chose to go with an number for the average score rather than using the star method.
+- Getting the query URL working was simple, so I tried to make it both prominent but not overly attention-grabbing
+
+### Future Improvements
+
+- I would deepen my learning of React in order to place the query URL in the browser URL rather than making it a visible string on the page
+- Testing across all devices to ensure full device compatibility. Not do-able for a 2-3 hour code test
+- Add user options. Right now, they can only search by title. Users are likely to want to search for movies currently out, or movies soon to release, and a few sorting options (a common one might be sorting by average rating high to low)

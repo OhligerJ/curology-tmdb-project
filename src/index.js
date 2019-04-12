@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Search from './Search';
 // import API_fetch from './API_fetch';
 import * as serviceWorker from './serviceWorker';
