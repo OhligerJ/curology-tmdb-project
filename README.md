@@ -71,9 +71,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 `npm install --save typescript` 
 `npm install --save axios`
-`npm install --save popper.js`
-`npm install --save jquery`
-`npm install --save bootstrap`
 `npm install --save prop-types`
 `npm install --save react-infinite-scroller`
 
